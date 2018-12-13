@@ -60,3 +60,9 @@ def menu_column_band():
 	prompt = ''
 	prompt += ''
 	input(prompt)
+
+
+menu_start()
+if action in ['n','N']:
+	next_step = menu_new_project()
+print(next_step)
